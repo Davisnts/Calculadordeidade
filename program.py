@@ -1,0 +1,8 @@
+nome = input ('Qual o seu nome ? ')
+dia = input('Dia em que você nasceu : ')
+mes = input('Mesem que você nasceu : ')
+ano = input('Ano em que você nasceu :')
+ano1 = 2017 - int(ano)
+ano2 = 2018 - int(ano)
+#print ('Olá',nome,'Você nasceu no dia ',dia,'/',mes,'/', ano, 'é você tem entre',ano1,'é',ano2)
+print ('Olá',nome,'Você nasceu no dia {}/{}/{} é voce tem entre {} é {}'.format(dia,mes,ano,ano1,ano2))
